@@ -1,7 +1,10 @@
+import Counter from "../components/Counter"
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+     <Counter/>
+    </div>
   )
 }
 
