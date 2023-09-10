@@ -4,6 +4,6 @@ const logger=(store)=>(next)=>(action)=>{
     console.log("Current State",currentState)
     console.log("Dispatch Action",action)
     next(action);
-    console.log(store.getState())
+    console.log("Update state",store.getState())
 };
 export default logger;
